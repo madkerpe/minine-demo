@@ -2,7 +2,6 @@ import time
 
 import cv2
 import matplotlib.pyplot as plt
-
 from minine.minine_decoder import MinineDecoder
 from minine.minine_encoder import MinineEncoder
 from minine.preprocessor import Preprocessor

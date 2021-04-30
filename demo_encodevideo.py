@@ -1,12 +1,11 @@
 from argparse import ArgumentParser
 
 import imageio
-from skimage import img_as_ubyte
-from tqdm import tqdm
-
 from minine.minine_decoder import MinineDecoder
 from minine.minine_encoder import MinineEncoder
 from minine.preprocessor import Preprocessor
+from skimage import img_as_ubyte
+from tqdm import tqdm
 
 # parameters
 parser = ArgumentParser()

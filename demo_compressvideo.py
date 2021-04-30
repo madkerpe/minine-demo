@@ -1,10 +1,9 @@
 import imageio
-from pympler import asizeof
-from skimage import img_as_ubyte
-
 from minine.minine_decoder import MinineDecoder
 from minine.minine_encoder import MinineEncoder
 from minine.preprocessor import Preprocessor
+from pympler import asizeof
+from skimage import img_as_ubyte
 
 # video
 input_video_path = "./input_video.mp4"

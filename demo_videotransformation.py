@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 import torch
-
 from minine.minine_decoder import MinineDecoder
 from minine.minine_encoder import MinineEncoder
 from minine.preprocessor import Preprocessor

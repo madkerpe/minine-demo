@@ -1,5 +1,6 @@
-import cv2
 import time
+
+import cv2
 from minine.minine_decoder import MinineDecoder
 from minine.minine_encoder import MinineEncoder
 from minine.preprocessor import Preprocessor
@@ -36,7 +37,7 @@ while True:
     decoded_frame = decoder.decode_frame(encoded_frame)
 
     # Calculate fps and reset counter
-    fps = 1. / (time.time() - timestamp)
+    fps = 1.0 / (time.time() - timestamp)
     timestamp = time.time()
 
     # Add fps counter to the frame
